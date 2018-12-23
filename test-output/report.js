@@ -84,7 +84,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3205489302,
+  "duration": 5820528186,
   "status": "passed"
 });
 formatter.background({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "JobsSteps.user_login_as_and_password(String,String)"
 });
 formatter.result({
-  "duration": 1478466801,
+  "duration": 2910358045,
   "status": "passed"
 });
 formatter.scenario({
@@ -160,7 +160,7 @@ formatter.match({
   "location": "EmployeeListSteps.i_am_on_PIM_Link_and_select_AddEmployee_option()"
 });
 formatter.result({
-  "duration": 2255134161,
+  "duration": 1751194932,
   "status": "passed"
 });
 formatter.match({
@@ -173,14 +173,14 @@ formatter.match({
   "location": "EmployeeListSteps.user_enter_employee_name(String)"
 });
 formatter.result({
-  "duration": 189088749,
+  "duration": 289370362,
   "status": "passed"
 });
 formatter.match({
   "location": "EmployeeListSteps.click_on_search()"
 });
 formatter.result({
-  "duration": 985782576,
+  "duration": 775875967,
   "status": "passed"
 });
 formatter.match({
@@ -193,15 +193,15 @@ formatter.match({
   "location": "EmployeeListSteps.confirm_employee_is_available_at_list(String)"
 });
 formatter.result({
-  "duration": 222471787,
+  "duration": 138188458,
   "status": "passed"
 });
 formatter.after({
-  "duration": 90632633,
+  "duration": 754906442,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2065573701,
+  "duration": 5259706695,
   "status": "passed"
 });
 formatter.background({
@@ -230,7 +230,7 @@ formatter.match({
   "location": "JobsSteps.user_login_as_and_password(String,String)"
 });
 formatter.result({
-  "duration": 1196353593,
+  "duration": 2109516027,
   "status": "passed"
 });
 formatter.scenario({
@@ -277,7 +277,7 @@ formatter.match({
   "location": "EmployeeListSteps.i_am_on_PIM_Link_and_select_AddEmployee_option()"
 });
 formatter.result({
-  "duration": 1237444392,
+  "duration": 1353382283,
   "status": "passed"
 });
 formatter.match({
@@ -290,14 +290,14 @@ formatter.match({
   "location": "EmployeeListSteps.user_enter_employee_name(String)"
 });
 formatter.result({
-  "duration": 163085499,
+  "duration": 266166509,
   "status": "passed"
 });
 formatter.match({
   "location": "EmployeeListSteps.click_on_search()"
 });
 formatter.result({
-  "duration": 829515511,
+  "duration": 524592216,
   "status": "passed"
 });
 formatter.match({
@@ -310,15 +310,15 @@ formatter.match({
   "location": "EmployeeListSteps.confirm_employee_is_available_at_list(String)"
 });
 formatter.result({
-  "duration": 283459440,
+  "duration": 102637376,
   "status": "passed"
 });
 formatter.after({
-  "duration": 96412334,
+  "duration": 681289278,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2353434549,
+  "duration": 4880152377,
   "status": "passed"
 });
 formatter.background({
@@ -347,7 +347,7 @@ formatter.match({
   "location": "JobsSteps.user_login_as_and_password(String,String)"
 });
 formatter.result({
-  "duration": 4005264062,
+  "duration": 1940788331,
   "status": "passed"
 });
 formatter.scenario({
@@ -394,7 +394,7 @@ formatter.match({
   "location": "EmployeeListSteps.i_am_on_PIM_Link_and_select_AddEmployee_option()"
 });
 formatter.result({
-  "duration": 2201766739,
+  "duration": 1933235434,
   "status": "passed"
 });
 formatter.match({
@@ -407,14 +407,14 @@ formatter.match({
   "location": "EmployeeListSteps.user_enter_employee_name(String)"
 });
 formatter.result({
-  "duration": 178882996,
+  "duration": 278222801,
   "status": "passed"
 });
 formatter.match({
   "location": "EmployeeListSteps.click_on_search()"
 });
 formatter.result({
-  "duration": 415994808,
+  "duration": 630663982,
   "status": "passed"
 });
 formatter.match({
@@ -427,11 +427,11 @@ formatter.match({
   "location": "EmployeeListSteps.confirm_employee_is_available_at_list(String)"
 });
 formatter.result({
-  "duration": 255943587,
+  "duration": 688679141,
   "status": "passed"
 });
 formatter.after({
-  "duration": 92601604,
+  "duration": 671765356,
   "status": "passed"
 });
 });
