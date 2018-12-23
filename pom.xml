@@ -25,6 +25,7 @@
 					<includes>
 						<exclude>**/*TestRunner.java</exclude>
 					</includes>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 
