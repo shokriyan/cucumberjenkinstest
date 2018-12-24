@@ -28,7 +28,29 @@
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
-
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<version>3.15.0</version>
+				 <executions>
+                    <execution>
+                        <id>execution </id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>OrangeHRM</projectName>
+                            <!-- path to the report that will be generated -->
+                            <outputDirectory>${project.build.directory}/reports</outputDirectory>
+                            <!-- path to the json file that will be used to genetrate report -->
+                            <param>**/*.json</param>
+                            <!-- it has to match the one on the testrunner -->
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                        </configuration>
+                    </execution>
+                </executions>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
