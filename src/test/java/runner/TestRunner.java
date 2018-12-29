@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 				, glue = { "stepDefinition" }
 				,plugin= { "pretty"
 				, "html:src/target/cucumber-defualt-reports"
-				,"json:target/cucumber.json"
+				,"json:cucumber.json"
 				}
 				,tags= {"@login"}
 				,dryRun=false
