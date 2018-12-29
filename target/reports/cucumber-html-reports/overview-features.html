@@ -51,11 +51,11 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                77,
+                18,
                 0,
                 0,
                 0,
-                3
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 80) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 18) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                16,
-                1
+                6,
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -144,7 +144,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 17) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -157,8 +157,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   4,
-                   1
+                   1,
+                   0
                ],
                backgroundColor: [
                 "#00B000",
@@ -191,7 +191,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -234,7 +234,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>OrangeHRM</td>
               <td>1</td>
-            <td>23 Dec 2018, 23:25</td>
+            <td>29 Dec 2018, 13:35</td>
     </tr>
   </tbody>
 </table>
@@ -329,74 +329,6 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-feature_AddEmployee-feature.html">Add Employee on Orange HRM</a></td>
-        
-        <td      class="passed"    >30</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">30</td>
-
-        <td  class="passed"    >5</td>
-        <td >0</td>
-        <td class="total">5</td>
-
-        <td class="duration" data-value="53258266105">53.258</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-feature_AssignLeave-feature.html">Assign leaves</a></td>
-        
-        <td      class="passed"    >8</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">8</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="20558852340">20.558</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-feature_EmployeeList-feature.html">Employee List Search</a></td>
-        
-        <td      class="passed"    >15</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">15</td>
-
-        <td  class="passed"    >3</td>
-        <td >0</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="13318541600">13.318</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-feature_jobs-feature.html">Jobs feature</a></td>
-        
-        <td      class="passed"    >6</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td   class="undefined" >3</td>
-        <td class="total">9</td>
-
-        <td  class="passed"    >1</td>
-        <td  class="failed"    >1</td>
-        <td class="total">2</td>
-
-        <td class="duration" data-value="10200456636">10.200</td>
-        <td class="failed">Failed</td>
-      </tr>
-          <tr>
         <td class="tagname"><a href="report-feature_login-feature.html">Login to Orang HRM Page</a></td>
         
         <td      class="passed"    >18</td>
@@ -410,7 +342,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">6</td>
 
-        <td class="duration" data-value="9752400036">9.752</td>
+        <td class="duration" data-value="3991152376">3.991</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -418,33 +350,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-            <td>77</td>
+            <td>18</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
-      <td>80</td>
+      <td>0</td>
+      <td>18</td>
 
-      <td>16</td>
+      <td>6</td>
+      <td>0</td>
+      <td>6</td>
+
+      <td class="duration">3.991</td>
       <td>1</td>
-      <td>17</td>
-
-      <td class="duration">1:47.088</td>
-      <td>5</td>
     </tr>
     <tr>
       <td></td>
-            <td>96.25%</td>
+            <td>100.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
-      <td>3.75%</td>
+      <td>0.00%</td>
       <td></td>
-      <td>94.12%</td>
-      <td>5.88%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>80.00%</td>
+      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>

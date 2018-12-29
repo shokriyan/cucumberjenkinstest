@@ -9,13 +9,15 @@ import cucumber.api.junit.Cucumber;
 
 
 @CucumberOptions(features="src/test/resources/features"
-				,tags= {}
 				, glue = { "stepDefinition" }
-				, dryRun = false
-				, plugin = {"pretty",
-						"html:target/default-report",
-						"json:target/cucumber.json"}
-				, monochrome = true)
+				,plugin= { "pretty"
+				, "html:src/target/cucumber-defualt-reports"
+				,"json:target/cucumber.json"
+				}
+				,tags= {"@login"}
+				,dryRun=false
+				,monochrome=true
+						)
 
 public class TestRunner {
 

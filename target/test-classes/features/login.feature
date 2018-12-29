@@ -1,4 +1,5 @@
 #Author: Mohammad
+@login
 Feature: Login to Orang HRM Page
 
   @validLog
